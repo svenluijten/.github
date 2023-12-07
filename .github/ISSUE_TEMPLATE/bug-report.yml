@@ -1,0 +1,34 @@
+name: Bug Report
+description: File a bug report.
+labels:
+  - bug
+assignees:
+  - svenluijten
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug!
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: Explain what happened, what you did, and what you expected to happen.
+      placeholder: I tried to do...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Describe how to reproduce the bug. Things like operating system, version(s), etc.
+      placeholder: |
+        1. Install ...
+        2. Run the command ...
+        3. Call method ...
+        4. See error ...
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: What else should we know about this bug?

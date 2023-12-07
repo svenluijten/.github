@@ -1,0 +1,24 @@
+name: Feature Requets
+description: Suggest a new feature.
+labels:
+  - enhancement
+assignees:
+  - svenluijten
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature!
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: Describe what you would like to see.
+      placeholder: I'd love to see a feature where you can ...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: What else should we know about this feature?
